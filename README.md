@@ -1,14 +1,13 @@
 # DrHack
 
-🚀 ** 
+🚀 
 (all wrapped in a single Bash menu). Built and tested on **Kali Linux**, but any
 Debian-based distro with `git` and `bash` should work.
 
 ---
 
 ## Features
-
-- Interactive menu with coloured, numbered options  
+ 
 - Automatic cloning + install steps for each tool  
 - “Requirements & Update” option to grab common packages in one go  
 - Simple uninstall that wipes everything under the `Tools/` directory
