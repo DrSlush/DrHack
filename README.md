@@ -1,6 +1,6 @@
 # DrHack
 
-🚀 **DrHack** is a one-stop launcher for 40+ popular offensive-security tools  
+🚀 ** 
 (all wrapped in a single Bash menu). Built and tested on **Kali Linux**, but any
 Debian-based distro with `git` and `bash` should work.
 
