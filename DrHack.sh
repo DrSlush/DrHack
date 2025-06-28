@@ -227,8 +227,8 @@ apt install git
 apt install python2
 git clone https://github.com/D4RK-4RMY/DARKARMY.git
 cd DARKARMY
-chmod +x darkarmy.py
-python2 darkarmy.py
+chmod +x install.sh
+./install.sh
 
 elif [[ $islem == 18 || $islem == 018 ]]; then
 clear
