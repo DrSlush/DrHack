@@ -32,7 +32,7 @@ echo -e '\033[31;40;1m
 \e[37m[37]\e[36m AndroidPINCrack	         \e[37m[38]\e[36m Fluxion 
 \e[37m[39]\e[36m CamHack	                 \e[37m[40]\e[36m SPY-KING
 \e[37m[41]\e[36m Door404	                 \e[37m[42]\e[36m BlackWidow
-
+\e[37m[43]\e[36m Shodan Eye
 '
 read -p "Option Selected: " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
@@ -493,6 +493,14 @@ git clone https://github.com/1N3/BlackWidow.git
 cd BlackWidow
 sudo bash install.sh
 
+elif [[ $islem == 43 || $islem == 043 ]]; then
+clear
+echo -e "\033[47;3;35m Installation may take some time.\033[0m"
+sleep 3
+git clone https://github.com/BullsEye0/shodan-eye.git
+cd shodan-eye
+pip3 install -r requirements.txt
+python3 shodan_eye.py
 
 else   
 	clear
